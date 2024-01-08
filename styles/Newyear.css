@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+}
+
+.header {
+    position: relative;
+   
+    height: 600px; /* Adjust the height based on your needs */
+    color: white;
+    text-align: center;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+.banner {
+    position: relative;
+    width: 1320px; /* Set the width of the banner */
+    height: 300px; /* Set half of the height for the banner */
+    
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+}
+
+.banner-content {
+    position: absolute;
+    top: 50%; /* Position the content in the middle of the banner */
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the content with a translate transformation */
+    z-index: 1; /* Place the content above the image */
+}
+
+.banner-greeting {
+    color: #FFF;
+text-align: center;
+font-family: Merriweather;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.banner-title {
+    color: #FFF;
+text-align: center;
+font-family: Merriweather;
+font-size: 72px;
+font-style: normal;
+font-weight: 900;
+line-height: 95px; /* 131.944% */
+}
